@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+
+
+
+
+.topnav {
+margin-left: 800px;
+background:color: white;}
+
+
+.dropdown img {
+width : 300px;
+height: 300px;
+margin-top : 90px;
+maring-left: }
+
+
+.contact{
+background-color: white;
+border: none;}
+
+
+
+body{
+margin-top: 0px;
+height: 100vh;
+background-color:white; 
+font-family: inherit;
+}
+
+.dropdown button {
+cursor:pointer;
+font-family: inherit;
+font-size : 25px;
+}
+
+
+nav{ 
+background-color:white;
+}
+
+
+
+.dropdown { 
+height :10vh;
+justify-content: space-around;
+display: flex;
+align-items: center;
+width : 100%;
+margin: auto;
+}
+
+.dropdown p{
+margin-left: -90px}
+
+.projects, 
+.products, .extra {
+position:relative; 
+}
+
+.ascolta{ position: relative;
+  display: inline-block;}
+
+.dropdown-content {
+  margin-left: -100px;
+height: 50px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+font-size: 15px;
+font-family: inherit;
+width: 150px;
+  color: black;
+  padding: 20px 24px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.ascolta:hover .dropdown-content {
+margin-top: 0px; 
+display: flex;}
+
+.ascolta:hover .dropbtn {background-color: #3e8e41;}
+
+
+.projects a, 
+.products a, .extra a, .home a, .dialetti a , .ascolta a, a{
+color: black;
+text-decoration: none;}
+
+
+
+.home:hover, .projects button:hover, .products button:hover, .extra button:hover, .ascolta button:hover, .dialetti button:hover, .congiuntivo button:hover, .indicativo button:hover, .condizionale button:hover{
+background-color : grey;
+border: solid 2px;
+height : 50px;
+widht: 50px;
+}
+
+
+.dropdown button{
+background :none;
+border: none;
+color: black;	;
+text-decoration : none;}
+
+
+
+.logo2 img{
+align-items: center;
+margin-top:0px;
+width : 600px;
+height: 600px;
+}
+
+.scopri{
+
+margin-top: 100px;
+display:flex;  
+justify-content: center; 
+align-items: center;}
+
+
+
+.Title{
+display:flex;
+justify-content: space-around;
+text-align: flex-start;
+align-items : left
+margin-left: -20px;
+margin-right: -20px;
+margin-top: 250px;  
+color:  black;
+font-family: inherit;
+height :100vh;
+font-family: inherit;
+font-size : 25px;
+text-align: center;
+background-color : white;
+justify-content: space-around;
+box-sizing:border-box;
+font-size : 25px;
+text-align: center;
+cursor:pointer;
+background-color:snow;
+}
+
+.descr{
+position: absolute;
+margin-left: 700px;
+margin-top: -150px;
+font-style: italic;
+font-family : inherit;
+font-size: 20px;
+
+}
+
+
+
+
+.container {
+left: 100px;
+position: relative;
+margin-top: -350px;
+transform: translate (-30%, -30%);
+width: 60%;
+}
+
+
+.container span{
+background-color: white;
+color: red;
+text-tranform: uppercase;
+display: block;
+width: 
+}
+
+.text2{
+font-size: 20px;
+letter-spacing: 5px;
+animation: text2 5s 1;
+
+}
+
+
+
+
+@keyframes text2 {
+0% { 
+
+color:  green;
+margin:-bottom -20px;
+}
+30% {white;
+color: #fffafa		;
+letter-spacing: 10px;
+margin-bottom: -20px;
+}
+85%
+color: #cc0000;
+letter-spacing : 4px;
+margin-bottom-40px;}
+}
+
+.pag2{
+}
+
+
+</style>
+
+
+
+
+
+<body>
+
+<div class ="topnav">
+
+
+
+<div>
+
+<button class= "contact">Lavora con noi</button>
+<button class= "contact">Contact us</button>
+<input class = "search-text" type="text" placeholder="Search..">
+
+<button  > Go </button>
+
+
+</div>
+
+</div>
+
+
+
+  <nav>
+
+    <div class="dropdown">
+
+     <p><img src= "C:\Users\Odoo\Documents\sito\img\accentook2.png"></p>
+     <button div class= "home"><a href ="file:///C:/Users/Odoo/Documents/sito/homepage.html"> Home</a></button>
+        <div class = "ascolta">
+            <button> <a href= "file:///C:/Users/Odoo/Documents/sito/guarda.html">Ascoltare</a> </button>
+            <div class=  "dropdown-content">          
+<a href="#">Video e Documentari </a>
+           <a href="#">Canzoni Italiane</a>
+            <a href="#"> Esercizi Pratici</a>
+          
+        
+</div>
+            
+  </div>
+         
+
+<div class= "ascolta">
+            <button> <a href=file:///C:/Users/Odoo/Documents/sito/leggi.html ">Leggere </a></button>
+           <div class=  "dropdown-content">          
+<a href="#">Testi comici e divertenti </a>
+           <a href="#">Testi culturali e storici</a>
+            <a href="#"> Esercizi Pratici</a>
+          
+        
+</div>
+   
+</div>
+
+   <div class= "ascolta">
+            <button class="drpbtn"><a href="file:///C:/Users/Odoo/Documents/sito/ascolta.html"> Grammatica </a></button>
+<div class=  "dropdown-content">          
+<a href="#">Regole e morfologia </a>
+           <a href="#">Verbi e Coniugazioni</a>
+            <a href="#"> Esercizi Pratici</a>
+          
+        
+</div>
+</div>
+   <div class= "dialetti" style="margin-left: 100px; ">
+            <button style=" background-color: whitesmoke; border: solid 2px; font-size:15px; height:40px";> Registrati  </button>
+    
+</div>
+
+   <div class= "products">
+            <button style="font-size:20px;background-color: whitesmoke; border: solid 2px; font-size:15px; height:40px";> Login</button>
+     
+</div>
+</div>
+</nav>
+<hr>
+
+
+
+<div class="logo2">
+  <img src= "C:\Users\Odoo\Documents\sito\img\accent1.png">
+</div>
+
+
+<div class= "container">
+<span class= "text2">Learn Italian by exploring Italy </span>
+</div>
+
+<div class= "descr" >
+Impara l'italiano esplorando la cultura, la storia e la mondanitÃ  italiana. <br><br>
+Una raccolta di video, racconti, canzoni e tanto altro ti renderanno un madre lingua italiano in brevissimo tempo
+
+
+
+<a href= "#title1">
+<div class= "scopri">
+<button  style= "cursor:pointer; margin-top: -50px; width: 35%; height: 70px; color: green ; font-family : inherit; background-color: red; opacity: 0.7; border-radius: 20px; font-size: 25px;id=btn2"> Inizia il viaggio <br>&#9660 </button> 
+</div> </a>
+</div>
+
+
+
+<div id= "title1" class = "Title">
+
+
+<h1 style =" position: absolute; color: #2F2F2F; font-size: 30px;width: 300px; font-family: inherit; font-weight: bold;margin-top: 50px;"> Da Dove Vuoi Iniziare?</h1>
+
+<a href= "file:///C:/Users/Odoo/Documents/sito/guarda.html">
+<button style="cursor:pointer;background-color: green ;  color:  black;font-family: inherit;margin-top: 250px;  font-style: bold;borders: none; font-size:30px; border-radius: 75px; width: 300px; height: 400px;">Guarda e Ascolta <div style= " margin-left:  35px; font-size:20px; width: 215px; font-family: inherit;margin-top:10px; font-style: italic;" > "Impara l'italiano guardando video divertenti, culturali, storici e tanti altri"</div>
+</button></a>
+
+
+<a href= "file:///C:/Users/Odoo/Documents/sito/leggi.html">
+<button style=" ;cursor:pointer; background-color:white; color:  black;font-family: inherit;   borders: none; font-size:30px;margin-top: 250px; border-radius: 75px;  width: 300px; height: 400px;">Imparare a leggere <div style= "margin-left:  35px; font-size: 20px; width: 215px; font-family: inherit;margin-top:10px;font-style: italic; " >
+"Aumenta la tua capacitÃ  di lettura e di scrittura leggendo brani storici, culturali e divertenti"</div>
+</button>  
+</a>   
+
+
+  <a href= "file:///C:/Users/Odoo/Documents/sito/grammatica%20home.html">
+<button  style=" cursor:pointer;background-color:red ;  color:  black;font-family: inherit ;borders: none; font-size:30px;  margin-top: 250px;border-radius: 75px;   width: 300px; height: 400px;">La Grammatica Italiana<div style= "margin-left:  35px; font-size: 20px; width: 215px; font-family: inherit; margin-top:10px; font-style: italic; " > "Impara i verbi, le regole e tutta la grammatica italiana" </div>
+</button>
+
+  </a>
+</div>
+
+
+
+</body>
+
+
+</html>
